@@ -1,0 +1,7 @@
+android-androresolvd.debhelper.log
+android-androresolvd.postinst.debhelper
+android-androresolvd.postrm.debhelper
+android-androresolvd.prerm.debhelper
+android-androresolvd.substvars
+android-androresolvd/
+files
