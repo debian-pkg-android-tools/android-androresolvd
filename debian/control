@@ -16,4 +16,6 @@ Description: Daemon to transfer Android DNS property to resolv.conf
  to have the ANDROID_PROPERTY_WORKSPACE environment variable and
  the /dev/ashmem file descriptor (usually #9) that is inherited from
  the calling process. Another note: cannot be started from a login 
- shell, because "bash --login" closes all inherited file descriptors.
+ shell, because `bash --login` closes all inherited file descriptors.
+ .
+ This only makes sense to install on a Debian chroot running on Android.
