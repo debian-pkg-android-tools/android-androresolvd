@@ -1,4 +1,4 @@
-Source: androresolvd
+Source: android-androresolvd
 Section: unknown
 Priority: extra
 Maintainer: Sven-Ola Tuecke <sven-ola@gmx.de>
@@ -6,7 +6,7 @@ Uploaders: Android Tools <android-tools-devel@lists.alioth.debian.org>
 Build-Depends: debhelper
 Standards-Version: 3.9.5
 
-Package: androresolvd
+Package: android-androresolvd
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, resolvconf
 Description: Daemon to transfer Android DNS property to resolv.conf
