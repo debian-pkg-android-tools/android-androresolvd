@@ -1,5 +1,5 @@
 Source: android-androresolvd
-Section: unknown
+Section: otherosfs
 Priority: extra
 Maintainer: Sven-Ola Tuecke <sven-ola@gmx.de>
 Uploaders: Android Tools <android-tools-devel@lists.alioth.debian.org>,
