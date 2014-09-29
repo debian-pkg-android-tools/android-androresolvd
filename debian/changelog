@@ -1,0 +1,76 @@
+androresolvd (1.3-0) unstable; urgency=low
+
+  * Changed deprectated signal() to sigaction()
+
+ -- Sven-Ola Tuecke <sven-ola@gmx.de>  Tue, 10 Apr 2012 06:43:50 +0001
+
+androresolvd (1.2-5) unstable; urgency=low
+
+  * Build error triggered SEGV on armel
+
+ -- Sven-Ola Tuecke <sven-ola@gmx.de>  Mon, 09 Apr 2012 19:04:00 +0001
+
+androresolvd (1.2-4) unstable; urgency=low
+
+  * Changed stategy to detect PROP_NAME_MAX: read /system/build.prop,
+    search longest ro. setting and compare this to memory structures
+  * Added -d switch for debug-run 
+
+ -- Sven-Ola Tuecke <sven-ola@gmx.de>  Fri, 06 Apr 2012 15:33:37 +0001
+
+androresolvd (1.2-3) unstable; urgency=low
+
+  * Remove /run/resolvconf/interface/original.resolvconf in postinst to
+    prevent old nameserver entries from showing up in the future
+
+ -- Sven-Ola Tuecke <sven-ola@gmx.de>  Wed, 28 Mar 2012 07:26:32 +0001
+
+androresolvd (1.2-2) unstable; urgency=low
+
+  * Hardening PROP_NAME_MAX detection
+
+ -- Sven-Ola Tuecke <sven-ola@gmx.de>  Mon, 26 Mar 2012 09:53:00 +0000
+
+androresolvd (1.2-1) unstable; urgency=low
+
+  * Replaced fix PROP_NAME_MAX with algorithm, because android-x86.org
+    binaries and intel-x86 emulator binaries uses different values, hence
+    we need to detect if PROP_NAME_MAX is (32 or 128) during runtime.
+
+ -- Sven-Ola Tuecke <sven-ola@gmx.de>  Mon, 26 Mar 2012 07:06:20 +0000
+
+androresolvd (1.1-2) unstable; urgency=low
+
+  * Added android-x86.org fix (PROP_NAME_MAX 128)
+
+ -- Sven-Ola Tuecke <sven-ola@gmx.de>  Mon, 21 Mar 2012 18:33:45 +0000
+
+androresolvd (1.1-1) unstable; urgency=low
+
+  * Switched to resolvconf hook
+
+ -- Sven-Ola Tuecke <sven-ola@gmx.de>  Mon, 05 Mar 2012 12:52:30 +0000
+
+androresolvd (1.0-5) unstable; urgency=low
+
+  * Again fixed failing installation
+
+ -- Sven-Ola Tuecke <sven-ola@gmx.de>  Thu, 03 Mar 2011 11:08:21 +0000
+
+androresolvd (1.0-4) unstable; urgency=low
+
+  * Fixed failing installation
+
+ -- Sven-Ola Tuecke <sven-ola@gmx.de>  Wed, 02 Mar 2011 05:58:17 +0000
+
+androresolvd (1.0-3) unstable; urgency=low
+
+  * Fixed hanging /etc/init.d/androresolvd stop
+
+ -- Sven-Ola Tuecke <sven-ola@gmx.de>  Tue, 01 Mar 2011 18:18:14 +0100
+
+androresolvd (1.0-2) unstable; urgency=low
+
+  * Initial release
+
+ -- Sven-Ola Tuecke <sven-ola@gmx.de>  Fri, 28 Jan 2011 14:18:49 +0100

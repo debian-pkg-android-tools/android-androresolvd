@@ -1,0 +1,18 @@
+Source: androresolvd
+Section: unknown
+Priority: extra
+Maintainer: Sven-Ola Tuecke <sven-ola@gmx.de>
+Build-Depends: debhelper
+Standards-Version: 3.8.4
+
+Package: androresolvd
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, resolvconf
+Description: Daemon to transfer Android DNS property to resolv.conf
+ Small user space daemon to get the Android DNS server setting and
+ maintain the resolver config on a regulary basis. Note, that this
+ daemon has to be started by some running android programs, in order
+ to have the ANDROID_PROPERTY_WORKSPACE environment variable and
+ the /dev/ashmem file descriptor (usually #9) that is inherited from
+ the calling process. Another note: cannot be started from a login 
+ shell, because "bash --login" closes all inherited file descriptors.
