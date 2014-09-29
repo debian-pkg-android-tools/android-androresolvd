@@ -1,3 +1,9 @@
+android-androresolvd (1.3-1) unstable; urgency=low
+
+  * Initial upload to Debian (Closes: #763394)
+
+ -- Hans-Christoph Steiner <hans@eds.org>  Mon, 29 Sep 2014 17:48:00 -0400
+
 androresolvd (1.3-0) unstable; urgency=low
 
   * Changed deprectated signal() to sigaction()
