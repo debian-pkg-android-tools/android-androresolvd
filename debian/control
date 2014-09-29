@@ -2,6 +2,7 @@ Source: androresolvd
 Section: unknown
 Priority: extra
 Maintainer: Sven-Ola Tuecke <sven-ola@gmx.de>
+Uploaders: Android Tools <android-tools-devel@lists.alioth.debian.org>
 Build-Depends: debhelper
 Standards-Version: 3.9.5
 
