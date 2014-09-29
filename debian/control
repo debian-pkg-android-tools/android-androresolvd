@@ -3,7 +3,7 @@ Section: unknown
 Priority: extra
 Maintainer: Sven-Ola Tuecke <sven-ola@gmx.de>
 Build-Depends: debhelper
-Standards-Version: 3.8.4
+Standards-Version: 3.9.5
 
 Package: androresolvd
 Architecture: any
