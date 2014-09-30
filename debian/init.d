@@ -1,6 +1,6 @@
 #!/bin/sh
 ### BEGIN INIT INFO
-# Provides:          androresolvd
+# Provides:          android-androresolvd
 # Required-Start:    $remote_fs $network $local_fs
 # Required-Stop:     $remote_fs
 # Default-Start:     2 3 4 5
