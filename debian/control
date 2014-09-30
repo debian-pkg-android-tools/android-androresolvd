@@ -6,6 +6,7 @@ Uploaders: Android Tools <android-tools-devel@lists.alioth.debian.org>,
            Hans-Christoph Steiner <hans@eds.org>
 Build-Depends: debhelper
 Standards-Version: 3.9.5
+Homepage: http://sven-ola.dyndns.org
 Vcs-Git: https://anonscm.debian.org/git/android-tools/androresolvd.git
 Vcs-Browser: http://anonscm.debian.org/cgit/android-tools/androresolvd.git
 
