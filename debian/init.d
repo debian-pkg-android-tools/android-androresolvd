@@ -10,11 +10,14 @@
 
 # Author: Sven-Ola Tuecke <sven-ola@gmx.de>
 
+set -e
+
 PATH=/sbin:/usr/sbin:/bin:/usr/bin
 DAEMON=/usr/sbin/androresolvd
 
-# Exit if the package is not installed
-[ -x $DAEMON ] || exit 0
+test -x $DAEMON || exit 0
+
+. /lib/lsb/init-functions
 
 case "$1" in
 	start)
