@@ -4,7 +4,7 @@ Priority: extra
 Maintainer: Sven-Ola Tuecke <sven-ola@gmx.de>
 Uploaders: Android Tools <android-tools-devel@lists.alioth.debian.org>,
            Hans-Christoph Steiner <hans@eds.org>
-Build-Depends: debhelper
+Build-Depends: debhelper (>= 7.0.0~)
 Standards-Version: 3.9.5
 Homepage: http://sven-ola.dyndns.org
 Vcs-Git: https://anonscm.debian.org/git/android-tools/androresolvd.git
