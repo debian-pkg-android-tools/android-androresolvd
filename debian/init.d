@@ -28,7 +28,7 @@ case "$1" in
 			kill -INT $PID
 		;;esac
 	;;
-	restart)
+	restart|force-reload)
 		$0 stop
 		$0 start
 	;;
